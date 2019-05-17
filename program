@@ -35,10 +35,6 @@ namespace CrackTheCode
             int inputNum2;
             int inputNum3;
             int inputNum4;
-                Console.Write(code1);
-                Console.Write(code2);
-                Console.Write(code3);
-                Console.Write(code4);
                 do
                 {
                     try

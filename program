@@ -35,6 +35,10 @@ namespace CrackTheCode
             int inputNum2;
             int inputNum3;
             int inputNum4;
+                Console.Write(code1);
+                Console.Write(code2);
+                Console.Write(code3);
+                Console.Write(code4);
                 do
                 {
                     try
@@ -122,7 +126,7 @@ namespace CrackTheCode
             {
                 goodPlace++;
             }
-            else if (inputNum2 == code1 || inputNum1 == code3 || inputNum1 == code4)
+            else if (inputNum2 == code1 || inputNum2 == code3 || inputNum2 == code4)
             {
                 goodNum++;
             }
@@ -130,7 +134,7 @@ namespace CrackTheCode
             {
                 goodPlace++;
             }
-            else if (inputNum3 == code1 || inputNum1 == code2 || inputNum1 == code4)
+            else if (inputNum3 == code1 || inputNum3 == code2 || inputNum3 == code4)
             {
                 goodNum++;
             }
@@ -138,7 +142,7 @@ namespace CrackTheCode
             {
                 goodPlace++;
             }
-            else if (inputNum4 == code1 || inputNum1 == code2 || inputNum1 == code3)
+            else if (inputNum4 == code1 || inputNum4 == code2 || inputNum4 == code3)
             {
                 goodNum++;
             }
